@@ -1,0 +1,51 @@
+ Order ID;customer name;E-mail;Phone;Order Date;Product;Qty;Unit Price;Country
+ORD-1026;Julia Visser;JULIA.VISSER@EXAMPLE.COM;0031654585178;26/01/2026;Linen Tote Bag;4;18.00;Nederland
+ORD-1038;Daan Visser;daan.visser@example.com;0049687267850;2026-01-16;Notebook A5;3;€9.99;Deutschland
+ORD-1034;FINN BAKKER;finn.bakker@example.com;0032624305904;08/01/2026;Wool Scarf;4;€39.00;BE
+;;;;;;;;
+ORD-1021;Tess Peeters;tess.peeters@example.com;0049659597086;Jan 06 2026;Linen Tote Bag;4;18,00 EUR;Duitsland
+ORD-1031;Julia Visser;julia.visser@example.com;0049692613013;2026-01-13;Wool Scarf;2;€39.00;Duitsland
+ORD-1017;  Finn Bakker ;finn.bakker@example.com;0049632097220;Jan 01 2026;Notebook A5; 2 ;9,99 EUR;Deutschland
+ORD-1036;  Lotte Bakker ;lotte.bakker@example.com;0032647220099;21/01/2026;Notebook A5;1;9,99 EUR;Belgium
+ORD-1005;Sara Smit;not-an-email;0049699949389;2026-01-23;Wool Scarf;2;€ 39,00;Germany
+ORD-1015;  Jonas Meijer ;jonas.meijer@example.com;+49 696728778;Jan 02 2026;Notebook A5;;€ 9,99;Germany
+ORD-1028;Noah Mulder;noah.mulder@example.com;+32 613704481;09/01/2026;Notebook A5;3;9.99;BE
+ORD-1032;Mila Schmidt;mila.schmidt@example.com;+49 632775593;10-1-2026; notebook a5 ;2;9,99 EUR;Germany
+ORD-1012;MAX JANSEN;max.jansen@example.com;0032645575298;07/01/2026;Linen Tote Bag; 2 ;18,00 EUR;België
+ORD-1035;Finn Jansen;finn.jansen@example.com;0049689920257;Jan 25 2026;Linen Tote Bag;4;€18.00;Duitsland
+ORD-1002;Emma Peeters;emma.peeters@example.com;+31 6 89089901;2026-01-26;Wool Scarf;2;€39.00;netherlands
+ORD-1007;tess janssens;tess.janssens@example.com;0032696282117;5-1-2026; scented candle ;4;22,95 EUR;Belgium 
+ORD-1018;max bakker;MAX.BAKKER@EXAMPLE.COM;+31 6 18181586;2026-01-02;Scented Candle;1.0;€ 22,95;NL
+ORD-1035;  FINN JANSEN  ;FINN.JANSEN@EXAMPLE.COM;0049689920257;Jan 25 2026;Linen Tote Bag;4;€18.00;Duitsland
+ORD-1022;Emma Mulder;EMMA.MULDER@EXAMPLE.COM;+32 645496015;04/01/2026;Scented Candle;1.0;€ 22,95;belgie
+ORD-1029;  Jonas Meijer ; jonas.meijer@example.com  ;+32 687388337;2026-01-09;Scented Candle;1;€ 22,95;belgie
+ORD-1001;lucas de vries; LUCAS.DEVRIES@EXAMPLE.COM  ;+32 683197857;Jan 19 2026; scented candle ;1;€ 22,95;Belgium
+ORD-1019;SOPHIE BAKKER;sophie.bakker@example.com;06-8646 0539;2026-01-19;Desk Plant; 2 ;27,50 EUR;netherlands
+ORD-1027;Daan Schmidt;daan.schmidt@example.com;06-4054 7349;01/01/2026;Linen Tote Bag;3;18.00;netherlands
+;;;;;;;;
+ORD-1006;Lotte Müller;LOTTE.MULLER@EXAMPLE.COM;+49 617507864;2026-01-27;Wool Scarf; 2 ;39,00 EUR;DE
+ORD-1025;Julia de Vries;julia.devries@example.com;+49 658024342;22/01/2026;Scented Candle;3;€22.95;Duitsland
+ORD-1004;Sophie Peeters;sophie.peeters@example.com;+49 619335534;22/01/2026;Wool Scarf;1;€ 39,00;DE
+ORD-1023;  Tess Mulder ;tess.mulder@example.com;+32 616818112;Jan 21 2026;Scented Candle;1;22.95;belgie
+ORD-1033;tess bakker;tess.bakker@example.com;0031619774839;14/01/2026;Ceramic Mug; 2 ;€12.50;Nederland
+ORD-1039;  Finn Schmidt ;FINN.SCHMIDT@EXAMPLE.COM;06-6426 6464;Jan 27 2026;Scented Candle;1.0;22.95;Nederland
+ORD-1020;tess mulder;tess.mulder@example.com;0032650264926;2026-01-11; scented candle ;1.0;22.95;BE
+ORD-1011;Noah Bakker;noah.bakker@example.com;0032625014631;27-1-2026;Desk Plant;2;27.50;BE
+ORD-1024;Julia Mulder;julia.mulder@example.com;+49 611297845;03/01/2026;Linen Tote Bag;3;€ 18,00;Deutschland
+ORD-1017;  Finn Bakker ;finn.bakker@example.com;0049632097220;Jan 01 2026;Notebook A5; 2 ;9,99 EUR;Deutschland
+ORD-1030;Jonas Jansen; jonas.jansen@example.com  ;0032650308572;Jan 22 2026;Scented Candle;4;22,95 EUR;Belgium 
+ORD-1014;daan meijer;daan.meijer@example.com;0031627758595;Jan 08 2026;Desk Plant;2;27.50;NL
+ORD-1037;ANNA MEIJER;ANNA.MEIJER@EXAMPLE.COM;+49 630509175;Jan 03 2026;Desk Plant;1.0;€27.50;Deutschland
+ORD-1008;jonas janssens;jonas.janssens@example.com;+49 622201654;2026-01-28;Scented Candle;2;€22.95;Duitsland
+ORD-1031;Julia Visser;julia.visser@example.com;0049692613013;2026-01-13;Wool Scarf;2;€39.00;Duitsland
+ORD-1009;Sophie Müller;sophie.muller@example.com;+49 611540956;22-1-2026;Desk Plant;3;27.50;germany
+ORD-1004;  SOPHIE PEETERS  ;SOPHIE.PEETERS@EXAMPLE.COM;+49 619335534;22/01/2026;Wool Scarf;1;€ 39,00;DE
+ORD-1010;Jonas Bakker;jonas.bakker@example.com;+49 677187530;2026-01-17;Ceramic Mug;3;€ 12,50;Germany
+ORD-1040;EMMA JANSEN; emma.jansen@example.com  ;0032660882459;Jan 07 2026;Notebook A5; 2 ;9,99 EUR;België
+ORD-1023;  TESS MULDER  ;TESS.MULDER@EXAMPLE.COM;+32 616818112;Jan 21 2026;Scented Candle;1;22.95;belgie
+ORD-1013;LOTTE JANSEN;LOTTE.JANSEN@EXAMPLE.COM;06-8897 9095;2026-01-01;Linen Tote Bag;1;€ 18,00;NL
+ORD-1016;  Tess Peeters ;tess.peeters@example.com;0049620117988;2026-01-26; linen tote bag ;1.0;18.00;DE
+ORD-1002;Emma Peeters;emma.peeters@example.com;+31 6 89089901;2026-01-26;Wool Scarf;2;€39.00;netherlands
+ORD-1003;ANNA BAKKER;anna.bakker@example.com;+31 6 56164955;2026-01-26;Scented Candle;1.0;22.95;Nederland
+ORD-1006;Lotte Müller;LOTTE.MULLER@EXAMPLE.COM;+49 617507864;2026-01-27;Wool Scarf; 2 ;n/a;DE
+;;;;;;;;

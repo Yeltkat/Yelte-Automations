@@ -1,0 +1,7 @@
+# Secrets: never commit these
+credentials.json
+*service-account*.json
+.env
+
+# Local test data
+output/

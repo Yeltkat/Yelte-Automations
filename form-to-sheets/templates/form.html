@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Request a quote</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <main class="card">
+    <h1>Request a quote</h1>
+    <p class="intro">Tell me what you'd like automated. Every request lands straight in a Google Sheet.</p>
+
+    <form method="post" action="{{ url_for('submit') }}" novalidate>
+      <label>Name
+        <input name="name" value="{{ values.name or '' }}" required>
+        {% if errors.name %}<span class="error">{{ errors.name }}</span>{% endif %}
+      </label>
+
+      <label>Email
+        <input name="email" type="email" value="{{ values.email or '' }}" required>
+        {% if errors.email %}<span class="error">{{ errors.email }}</span>{% endif %}
+      </label>
+
+      <label>Phone <span class="optional">(optional)</span>
+        <input name="phone" type="tel" value="{{ values.phone or '' }}">
+        {% if errors.phone %}<span class="error">{{ errors.phone }}</span>{% endif %}
+      </label>
+
+      <div class="row">
+        <label>Service
+          <select name="service" required>
+            <option value="">Choose…</option>
+            {% for s in services %}
+            <option {% if values.service == s %}selected{% endif %}>{{ s }}</option>
+            {% endfor %}
+          </select>
+          {% if errors.service %}<span class="error">{{ errors.service }}</span>{% endif %}
+        </label>
+
+        <label>Budget <span class="optional">(optional)</span>
+          <select name="budget">
+            <option value="">Not sure yet</option>
+            {% for b in budgets %}
+            <option {% if values.budget == b %}selected{% endif %}>{{ b }}</option>
+            {% endfor %}
+          </select>
+          {% if errors.budget %}<span class="error">{{ errors.budget }}</span>{% endif %}
+        </label>
+      </div>
+
+      <label>What do you need?
+        <textarea name="message" rows="5" required>{{ values.message or '' }}</textarea>
+        {% if errors.message %}<span class="error">{{ errors.message }}</span>{% endif %}
+      </label>
+
+      <!-- Honeypot field against spam bots, hidden from real visitors -->
+      <input class="hp" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+      <button type="submit">Send request</button>
+    </form>
+  </main>
+</body>
+</html>
