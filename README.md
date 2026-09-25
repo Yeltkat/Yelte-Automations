@@ -22,7 +22,7 @@ Each folder below is a small, working example of a service I offer as a freelanc
 ## Running a demo
 
 ```bash
-git clone https://github.com/<your-username>/python-automation-portfolio.git
+git clone https://github.com/Yeltkat/python-automation-portfolio.git
 cd python-automation-portfolio/excel-cleaner
 python -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
