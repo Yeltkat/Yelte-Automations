@@ -222,3 +222,4 @@ credentials.json
 token.json
 service_account*.json
 .DS_Store
+excel-cleaner/try-out.py
