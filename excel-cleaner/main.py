@@ -158,6 +158,9 @@ def clean_price(value):
             text = text.replace(".", "").replace(",", ".")
         else:
             text = text.replace(",", "")
+    elif re.fullmatch(r"\d{1,3}(\.\d{3})+", text):
+        # Only dots, each followed by 3 digits: thousands separators (1.234 or 1.234.567)
+        text = text.replace(".", "")
     else:
         text = text.replace(",", ".")
     try:
